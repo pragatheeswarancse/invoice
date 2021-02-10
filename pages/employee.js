@@ -2,14 +2,14 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Navbar from '../components/navbar'
 import SearchBox from '../components/search'
-import Form from '../components/home/form'
+import FormEmployer from '../components/employee/formEmployee'
 
-export default function Home() {
+export default function Employee() {
   return (
     <div>
       <Navbar />
       <SearchBox />
-      <Form />
+      <FormEmployer />
     </div>
   )
 }
