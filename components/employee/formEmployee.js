@@ -95,14 +95,14 @@ return(
                                     <div className="col-span-3 ">
                                         <label for="month"
                                             className="block text-sm font-medium text-gray-700 py-2">Date of Joining</label>
-                                        <input type="number" name="month" id="month"
+                                        <input type="date" name="month" id="month"
                                             autocomplete="month"
                                             className="mt-1 py-2  w-full px-2 focus:ring-indigo-500 focus:border-indigo-500 block  shadow-sm sm:text-sm border-gray-300 rounded-md" />
                                     </div>
                                     <div className="col-span-3 pl-3">
                                         <label for="contract"
                                             className="block text-sm font-medium text-gray-700 py-2">Designation</label>
-                                        <input type="date" name="contract" id="contract"
+                                        <input type="text" name="contract" id="contract"
                                             className="mt-1 py-2 px-2 w-full focus:ring-indigo-500 focus:border-indigo-500 block  shadow-sm sm:text-sm border-gray-300 rounded-md" />
                                     </div>
                                     <div className="col-span-8 sm:col-span-3 lg:col-span-4">
