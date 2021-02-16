@@ -3,6 +3,7 @@ import PointOfContact from '../home/pointofcontact'
 import ExistingEmployee from '../home/existingEmployee'
 import ExistingCompany from '../employee/existingCompany'
 import NextButton from '../nextbtn'
+import Feature from '../feature'
 
 export default function FormEmployer() {
 return(
@@ -124,7 +125,9 @@ return(
                         <p className="mt-1 text-sm text-gray-600">
                             Use a permanent address where you can receive mail.
                         </p>
-
+                        <div>
+                            <Feature />
+                        </div>
                     </div>
                 </div>
             </div>
