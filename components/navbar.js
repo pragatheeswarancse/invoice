@@ -11,9 +11,11 @@ return(
     </Link>
     <div className="flex items-center space-x-1">
       <div className="hidden space-x-1 pr-20 md:inline-flex">
-        <a href="#" className="border px-5 bg-purple-700 text-white rounded font-bold py-1 hover:bg-purple-800">Log out</a>
-      </div>
+      <Link href="/loginCompany" title="Invoice Home Page" className="flex items-center">
+        <p className="border px-5 bg-purple-700 text-white rounded font-bold py-1 hover:bg-purple-800">Log out</p>
+      </Link>
     </div>
+  </div>
   </div>
 </header>
     </div>
